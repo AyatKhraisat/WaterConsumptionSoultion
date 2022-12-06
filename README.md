@@ -3,7 +3,7 @@
 
 This Solution was created to process the SARIMAX forecasting ML Model and update the model based on the model accuracy based on the new data available from Kafka.
 
-##Installing
+## Installing
 
 make sure you have up-and-running docker on your machine, clone the repo and start the terminal from  the repo location and run 
 `docker compose up`
@@ -13,7 +13,7 @@ make sure you have up-and-running docker on your machine, clone the repo and sta
 
 [<img src="https://i.ibb.co/xsLdB27/cccc-drawio-1.png">](https://i.ibb.co/xsLdB27/cccc-drawio-1.png)
 
-##Kafka
+## Kafka
 
 [<img src="https://i.ibb.co/bNgg7Zr/vvvvv.png">](https://i.ibb.co/xsLdB27/cccc-drawio-1.png)
 
@@ -22,14 +22,14 @@ Consumer in conumer.py file will consume the stream and apppend the data to  ret
 
 you can access the Kafka UI from localhost:8090 to see the messages, topics..etc.
 
-##MLFlow
+## MLFlow
 
 [<img src="https://i.ibb.co/JK5S80r/bbbb.png">](https://i.ibb.co/JK5S80r/bbbb.png)
 
 I have added the models generated to the Mlflow and saved AIC as metrics and step order as model param 
 you can access Mlflow from localhost:5000
 
-##Airflow
+## Airflow
 
 [<img src="https://i.ibb.co/bmnc9jj/mmmm.png">](https://i.ibb.co/bmnc9jj/mmmm.png)
 
@@ -48,7 +48,7 @@ will run daily, and it contains the following tasks:
     
 
 
-##Machine Learning Model
+## Machine Learning Model
 I have used AIC to compare the model(lower AIC is better) if the new model has a prediction better than the old model it will replace it.
 
 
