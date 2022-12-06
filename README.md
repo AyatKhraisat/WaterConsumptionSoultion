@@ -22,13 +22,15 @@ Consumer in conumer.py file will consume the stream and apppend the data to  ret
 
 you can access the Kafka UI from localhost:8090 to see the messages, topics..etc.
 
-##MLFlow 
+##MLFlow
+
 [<img src="https://i.ibb.co/JK5S80r/bbbb.png">](https://i.ibb.co/JK5S80r/bbbb.png)
 
 I have added the models generated to the Mlflow and saved AIC as metrics and step order as model param 
 you can access Mlflow from localhost:5000
 
 ##Airflow
+
 [<img src="https://i.ibb.co/bmnc9jj/mmmm.png">](https://i.ibb.co/bmnc9jj/mmmm.png)
 
 you can access it from localhost:8080
