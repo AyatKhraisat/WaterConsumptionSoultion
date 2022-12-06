@@ -3,7 +3,7 @@
 
 This Solution was created to process the SARIMAX forecasting ML Model and update the model based on the model accuracy based on the new data available from Kafka.
 
-Installing
+##Installing
 
 make sure you have up-and-running docker on your machine, clone the repo and start the terminal from  the repo location and run 
 `docker compose up`
