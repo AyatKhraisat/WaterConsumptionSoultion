@@ -9,7 +9,7 @@ make sure you have up-and-running docker on your machine, clone the repo and sta
 `docker compose up`
 12 images should be created including images for Kafka, Zookeeper, MLflow, Airflow, and Kafka UI.
 
-##The Architecture
+## The Architecture
 
 [<img src="https://i.ibb.co/xsLdB27/cccc-drawio-1.png">](https://i.ibb.co/xsLdB27/cccc-drawio-1.png)
 
